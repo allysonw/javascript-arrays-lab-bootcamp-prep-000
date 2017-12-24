@@ -9,6 +9,16 @@ function destructivelyPrependKitten(name){
 }
 
 function destructivelyRemoveLastKitten(){
-  kittens.pop()
+  kittens.pop();
   return kittens;
+}
+
+function destructivelyRemoveFirstKitten(){
+  kittens.shift();
+  return kittnes;
+}
+
+function appendKitten(name){
+  var newarray = [...kittens, name];
+  return newarray;
 }
